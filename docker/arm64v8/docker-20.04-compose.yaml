@@ -1,0 +1,11 @@
+version: "3.0"
+
+services:
+  arm64v8-ubuntu20.04:
+    image: arm64v8/ubuntu:20.04
+    command: /bin/bash
+    privileged: true
+    restart: always
+    tty: true
+    volumes:
+      - /home/liuchao/aarch64v8:/home/repo
