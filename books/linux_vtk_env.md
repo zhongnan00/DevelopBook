@@ -37,3 +37,13 @@ sudo dpkg -i nomachine_8.2.3_4_amd64.deb
 > https://github.com/Kitware/IGSTK/blob/master/Examples/Navigator/Navigator.cxx
 
 ```
+
+
+## System Architecture
+```shell
+1. data source-> filter -> processing -> output
+2. source->filer->mapper->actor->renderer->window
+
+
+
+```
