@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  icp:
+    image: icp-image:20251118
+    restart: always
+    tty: true
+    volumes:
+      - /media/liuchao/data_2T/ICP:/home/repo
